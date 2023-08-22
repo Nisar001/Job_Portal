@@ -12,7 +12,7 @@ const app = express();
 app.use(cors());
 
 const port = 8000;
-const DATABASE_URL = "mongodb+srv://nisar2024:nisar2024@cluster0.pc5ym2e.mongodb.net/myjobportal?retryWrites=true&w=majority";
+const DATABASE_URL = "";
 
 connectDB(DATABASE_URL);
 app.use(express.json());
