@@ -1,9 +1,3 @@
-import React from 'react'
-
-const EmployerRegController = () => {
-  return (
-    <div>EmployerRegController</div>
-  )
-}
+const EmployerRegController = () => {}
 
 export default EmployerRegController

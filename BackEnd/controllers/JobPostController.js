@@ -1,9 +1,3 @@
-import React from 'react'
-
-const JobPostController = () => {
-  return (
-    <div>JobPostController</div>
-  )
-}
+const JobPostController = () => {}
 
 export default JobPostController

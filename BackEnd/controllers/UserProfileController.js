@@ -1,9 +1,3 @@
-import React from 'react'
-
-const UserProfileController = () => {
-  return (
-    <div>UserProfileController</div>
-  )
-}
+const UserProfileController = () => {}
 
 export default UserProfileController

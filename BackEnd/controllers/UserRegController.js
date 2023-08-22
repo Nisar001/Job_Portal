@@ -1,9 +1,3 @@
-import React from 'react'
-
-const UserRegController = () => {
-  return (
-    <div>UserRegController</div>
-  )
-}
+const UserRegController = () => {}
 
 export default UserRegController

@@ -1,9 +1,3 @@
-import React from 'react'
-
-const EmployerProfileController = () => {
-  return (
-    <div>EmployerProfileController</div>
-  )
-}
+const EmployerProfileController = () => {}
 
 export default EmployerProfileController
