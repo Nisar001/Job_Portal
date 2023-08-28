@@ -14,7 +14,7 @@ const userRegSchema = new mongoose.Schema({
    },
    userPassword: {
       type: String, required: [true, "Password is Required Field"],
-      trim: true, minlength: 6, maxlength: 15,
+      trim: true, minlength: 6, maxlength: 100,
    },
 });
 
