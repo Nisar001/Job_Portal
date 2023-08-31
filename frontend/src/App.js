@@ -1,7 +1,15 @@
-import React from 'react';
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import UserReg from "./components/UserReg";
+
 function App() {
   return (
-    <div>Hello....</div>
+    <>
+    <Header/>
+    <UserReg/>
+    <Footer />
+    </>
   );
 }
-export default App();
+
+export default App;

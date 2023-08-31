@@ -1,7 +1,7 @@
 import mongoose, { mongo } from "mongoose";
 const userProfileSchema = new mongoose.Schema({
    userID: {
-      id: mongoose.Schema.Types.ObjectId,
+      type: mongoose.Schema.Types.ObjectId,
       ref: "userreg",
       required: [true, "User ID is Required"],
       unique: true,
