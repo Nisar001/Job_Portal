@@ -1,13 +1,10 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-// import Footer from "./components/Footer";
-// import Header from "./components/Header";
-// import UserReg from "./components/UserReg";
-import Login from "./components/pages/Login";
-import SignUp from './components/pages/SignUp';
-import DashBoard from './components/pages/DashBoard';
+import Login from "./pages/Login";
+import SignUp from './pages/SignUp';
+import DashBoard from './pages/DashBoard';
 
-function App() {
+const App = () => {
   return (
    <Routes>
     <Route path='/login' element={<Login/>}/>
