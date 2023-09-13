@@ -4,6 +4,7 @@ import Login from "./pages/Login";
 import SignUp from './pages/SignUp';
 import DashBoard from './pages/DashBoard';
 
+
 const App = () => {
   return (
    <Routes>
@@ -11,6 +12,8 @@ const App = () => {
     <Route path='/signUp' element={<SignUp/>}/>
     <Route path='/' element={<DashBoard/>}/>
     <Route path='*' element={<DashBoard/>}/>
+    
+
    </Routes>
   );
 }

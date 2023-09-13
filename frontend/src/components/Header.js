@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './Header.css';
-import {NavLink} from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
 import $ from 'jquery';
 const Header = () => {
   function animation(){
@@ -60,7 +60,7 @@ const Header = () => {
 
     <div 
       className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav ml-auto">
+      <ul className="navbar-nav mr-auto">
           
           <div className="hori-selector">
             <div className="left"></div>
