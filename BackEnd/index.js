@@ -12,7 +12,7 @@ const app = express();
 app.use(cors());
 
 const port = 8000;
-const DATABASE_URL = "";
+const DATABASE_URL = process.env.DB_URL;
 
 connectDB(DATABASE_URL);
 app.use(express.json());
